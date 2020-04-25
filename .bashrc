@@ -1,0 +1,18 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+GREEN="\[$(tput setaf 2)\]"
+RED="\[$(tput setaf 9)\]"
+YELLOW="\[$(tput setaf 3)\]"
+BLUE="\[$(tput setaf 33)\]"
+PINK="\[$(tput setaf 169)\]"
+WHITE="\[$(tput setaf 231)\]"
+
+PS1="${GREEN}b${RED}i${YELLOW}v${BLUE}a${PINK}s${WHITE} \W >"
+
+alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
