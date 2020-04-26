@@ -11,21 +11,21 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0/Numbe
+~MSle0~/mod+b 
 
 # Last Substitute Search Pattern:
-~MSle0~&Numbe
+~MSle0&Numbe
 
 # Last Substitute String:
 $Number
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1587885249,,"wq"
-:q
-|2,0,1587841774,,"q"
+|2,0,1587895311,,"wq"
 :w
-|2,0,1587839836,,"w"
+|2,0,1587895253,,"w"
+:q
+|2,0,1587894469,,"q"
 :%s/Numbe/Number/gc
 |2,0,1587757406,,"%s/Numbe/Number/gc"
 :%s/Numbe/Number/g
@@ -80,6 +80,10 @@ $Number
 |2,0,1587556602,,"/s/thee/the"
 
 # Search String History (newest to oldest):
+?/mod+b 
+|2,1,1587895305,47,"mod+b "
+?/mod+b
+|2,1,1587895279,47,"mod+b"
 ? Numbe
 |2,1,1587757406,,"Numbe"
 ?/Replace
@@ -117,59 +121,12 @@ $Number
 
 # Registers:
 "0	CHAR	0
-	#include<iostream>
-	using namespace std;
-	
-	int main(){
-	int a;
-	cout<<"Enter an amount:";
-	cin>>a;
-	int b = a%500;
-	if(a==b){
-	cout<<"Number of 500 tk note : 0"<<endl;
-	}
-	else {
-	cout<<"Number of 500tk note :1"<<endl;
-	}
-	int c = b%100;
-	if(b==c){
-	
-	cout<<"Number of 100 tk note : 0"<<endl;
-	}
-	else{
-	cout<<"Number of 100 tk note : 1"<<endl;
-	}
-	int d = c%50;
-	if(c==d){
-	
-	cout<<"Number of 50 tk note : 0"<<endl;
-	}
-	else{
-	cout<<"Number of 50 tk note : 1"<<endl;
-	}
-	int e=d%20;
-	if(d==e){
-	cout<<"Number of 20 tk note: 0"<<endl;
-	}
-	else{
-	cout<<"Number of 20 tk note :1"<<endl;
-	
-	}
-	int f=e%10;
-	if(e==f){
-	
-	cout<<"Number of 10 tk note :0"<<endl;
-	}
-	else{
-	
-	cout<<"Number of 10 tk note :1"<<endl;
-	}
-	int g=f%5;
-	if(f==g){
-	
-|3,0,0,0,50,0,1587757761,"#include<iostream>","using namespace std;","","int main(){","int a;","cout<<\"Enter an amount:\";","cin>>a;","int b = a%500;","if(a==b){","cout<<\"Number of 500 tk note : 0\"<<endl;","}","else {","cout<<\"Number of 500tk note :1\"<<endl;","}","int c = b%100;","if(b==c){","","cout<<\"Number of 100 tk note : 0\"<<endl;","}","else{","cout<<\"Number of 100 tk note : 1\"<<endl;","}","int d = c%50;","if(c==d){","",>43
-|<"cout<<\"Number of 50 tk note : 0\"<<endl;","}","else{","cout<<\"Number of 50 tk note : 1\"<<endl;","}","int e=d%20;","if(d==e){","cout<<\"Number of 20 tk note: 0\"<<endl;","}","else{","cout<<\"Number of 20 tk note :1\"<<endl;","","}","int f=e%10;","if(e==f){","","cout<<\"Number of 10 tk note :0\"<<endl;","}","else{","","cout<<\"Number of 10 tk note :1\"<<endl;","}","int g=f%5;","if(f==g){",""
-"1	CHAR	0
+	https://github.com/tryone144/compton"
+|3,0,0,0,1,0,1587892248,"https://github.com/tryone144/compton\""
+"1	LINE	0
+	exec_always 
+|3,0,1,1,1,0,1587891205,"exec_always "
+"2	CHAR	0
 	int a;
 	int b;
 	int mon[] = {500,100,50,20,10};
@@ -187,20 +144,7 @@ $Number
 	}
 	}}
 	
-|3,0,1,0,17,0,1587755715,"int a;","int b;","int mon[] = {500,100,50,20,10};","int c[]={};","int i;","cout<<\"Enter amount :\";","cin>>a;","","while(a!=0){","b=a%10;","a=a/10;","for(i=0;a!=0;i++){","c[i]=b;","cout<<c[i]<<endl;","}","}}",""
-"2	CHAR	0
-	
-	while(a!=0){
-	b=a%10;
-	a=a/10;
-	for(i=0;a!=0;i++){
-	c[i]=b;
-	cout<<c[i]<<endl;
-	}
-	}
-	
-	
-|3,0,2,0,11,0,1587755691,"","while(a!=0){","b=a%10;","a=a/10;","for(i=0;a!=0;i++){","c[i]=b;","cout<<c[i]<<endl;","}","}","",""
+|3,0,2,0,17,0,1587755715,"int a;","int b;","int mon[] = {500,100,50,20,10};","int c[]={};","int i;","cout<<\"Enter amount :\";","cin>>a;","","while(a!=0){","b=a%10;","a=a/10;","for(i=0;a!=0;i++){","c[i]=b;","cout<<c[i]<<endl;","}","}}",""
 "3	CHAR	0
 	
 	while(a!=0){
@@ -211,14 +155,27 @@ $Number
 	cout<<c[i]<<endl;
 	}
 	}
-|3,0,3,0,9,0,1587755680,"","while(a!=0){","b=a%10;","a=a/10;","for(i=0;a!=0;i++){","c[i]=b;","cout<<c[i]<<endl;","}","}"
-"4	LINE	0
-	cout<<b<<endl;
-|3,0,4,1,1,0,1587754758,"cout<<b<<endl;"
+	
+	
+|3,0,3,0,11,0,1587755691,"","while(a!=0){","b=a%10;","a=a/10;","for(i=0;a!=0;i++){","c[i]=b;","cout<<c[i]<<endl;","}","}","",""
+"4	CHAR	0
+	
+	while(a!=0){
+	b=a%10;
+	a=a/10;
+	for(i=0;a!=0;i++){
+	c[i]=b;
+	cout<<c[i]<<endl;
+	}
+	}
+|3,0,4,0,9,0,1587755680,"","while(a!=0){","b=a%10;","a=a/10;","for(i=0;a!=0;i++){","c[i]=b;","cout<<c[i]<<endl;","}","}"
 "5	LINE	0
+	cout<<b<<endl;
+|3,0,5,1,1,0,1587754758,"cout<<b<<endl;"
+"6	LINE	0
 	b=a/10;
-|3,0,5,1,1,0,1587753941,"b=a/10;"
-"6	CHAR	0
+|3,0,6,1,1,0,1587753941,"b=a/10;"
+"7	CHAR	0
 	
 	class A{
 		public:
@@ -256,248 +213,297 @@ $Number
 	
 	
 	}
-|3,0,6,0,37,0,1587753503,"","class A{","	public:","	A(){","	cout<<\"Constructor of A\"<<endl;","	}","	~A(){","	","	cout<<\"Destructor  of A\"<<endl;","	}	","","","","};","","","class B:A{","	public:","		B(){","		cout<<\"Constructor of B\"<<endl;","		}","		~B(){","		","		cout<<\"Destructor  of B\"<<endl;","		}","","","","};","","int main(){","B *b = new B();","delete(b);","","","","}"
-"7	LINE	0
-	cout<<"Constructor of B"<<endl;
-|3,0,7,1,1,0,1587752856,"cout<<\"Constructor of B\"<<endl;"
+|3,0,7,0,37,0,1587753503,"","class A{","	public:","	A(){","	cout<<\"Constructor of A\"<<endl;","	}","	~A(){","	","	cout<<\"Destructor  of A\"<<endl;","	}	","","","","};","","","class B:A{","	public:","		B(){","		cout<<\"Constructor of B\"<<endl;","		}","		~B(){","		","		cout<<\"Destructor  of B\"<<endl;","		}","","","","};","","int main(){","B *b = new B();","delete(b);","","","","}"
 "8	LINE	0
 	cout<<"Constructor of B"<<endl;
 |3,0,8,1,1,0,1587752856,"cout<<\"Constructor of B\"<<endl;"
 "9	LINE	0
-	YELLOW="
-|3,0,9,1,1,0,1587664205,"YELLOW=\""
+	cout<<"Constructor of B"<<endl;
+|3,0,9,1,1,0,1587752856,"cout<<\"Constructor of B\"<<endl;"
 "w	CHAR	0
 	$i<<endlq€kb€ýa
 |3,0,32,0,1,0,1587756849,"$i<<endlq€kb€ýa"
 ""-	CHAR	0
-	#
-|3,1,36,0,1,0,1587816608,"#"
+	-
+|3,1,36,0,1,0,1587894325,"-"
 
 # File marks:
-'0  2  19  ~/dotfiles/MERGE_MSG
-|4,48,2,19,1587885249,"~/dotfiles/MERGE_MSG"
-'1  18  71  ~/.bashrc
-|4,49,18,71,1587841774,"~/.bashrc"
-'2  18  71  ~/.bashrc
-|4,50,18,71,1587839861,"~/.bashrc"
-'3  18  71  ~/.bashrc
-|4,51,18,71,1587839840,"~/.bashrc"
-'4  18  71  ~/.bashrc
-|4,52,18,71,1587839840,"~/.bashrc"
-'5  1  0  /etc/xattr.conf
-|4,53,1,0,1587838089,"/etc/xattr.conf"
-'6  170  8  ~/.config/ranger/scope.sh
-|4,54,170,8,1587816619,"~/.config/ranger/scope.sh"
-'7  283  0  ~/.config/ranger/commands_full.py
-|4,55,283,0,1587805759,"~/.config/ranger/commands_full.py"
-'8  1  0  ~/C++/practise4.cpp
-|4,56,1,0,1587757838,"~/C++/practise4.cpp"
-'9  575  0  /tmp/tutorhCTgfV
-|4,57,575,0,1587757444,"/tmp/tutorhCTgfV"
+'0  175  9  ~/.config/i3/config
+|4,48,175,9,1587895311,"~/.config/i3/config"
+'1  114  4  ~/.config/compton.conf
+|4,49,114,4,1587894821,"~/.config/compton.conf"
+'2  124  17  ~/.config/compton.conf
+|4,50,124,17,1587894624,"~/.config/compton.conf"
+'3  124  17  ~/.config/compton.conf
+|4,51,124,17,1587894624,"~/.config/compton.conf"
+'4  114  2  ~/.config/compton.conf
+|4,52,114,2,1587894469,"~/.config/compton.conf"
+'5  114  2  ~/.config/compton.conf
+|4,53,114,2,1587894469,"~/.config/compton.conf"
+'6  114  2  ~/.config/compton.conf
+|4,54,114,2,1587894469,"~/.config/compton.conf"
+'7  132  4  ~/.config/compton.conf
+|4,55,132,4,1587894356,"~/.config/compton.conf"
+'8  132  4  ~/.config/compton.conf
+|4,56,132,4,1587894356,"~/.config/compton.conf"
+'9  130  4  ~/.config/compton.conf
+|4,57,130,4,1587894356,"~/.config/compton.conf"
 
 # Jumplist (newest first):
--'  2  19  ~/dotfiles/MERGE_MSG
-|4,39,2,19,1587885249,"~/dotfiles/MERGE_MSG"
--'  1  0  ~/dotfiles/MERGE_MSG
-|4,39,1,0,1587885176,"~/dotfiles/MERGE_MSG"
--'  18  71  ~/.bashrc
-|4,39,18,71,1587841774,"~/.bashrc"
--'  18  71  ~/.bashrc
-|4,39,18,71,1587841774,"~/.bashrc"
--'  18  71  ~/.bashrc
-|4,39,18,71,1587839861,"~/.bashrc"
--'  18  71  ~/.bashrc
-|4,39,18,71,1587839861,"~/.bashrc"
--'  18  71  ~/.bashrc
-|4,39,18,71,1587839840,"~/.bashrc"
--'  18  71  ~/.bashrc
-|4,39,18,71,1587839840,"~/.bashrc"
--'  16  60  ~/.bashrc
-|4,39,16,60,1587839798,"~/.bashrc"
--'  16  60  ~/.bashrc
-|4,39,16,60,1587839798,"~/.bashrc"
--'  16  60  ~/.bashrc
-|4,39,16,60,1587839798,"~/.bashrc"
--'  16  60  ~/.bashrc
-|4,39,16,60,1587839798,"~/.bashrc"
--'  16  60  ~/.bashrc
-|4,39,16,60,1587839798,"~/.bashrc"
--'  16  60  ~/.bashrc
-|4,39,16,60,1587839798,"~/.bashrc"
--'  1  0  /etc/xattr.conf
-|4,39,1,0,1587838089,"/etc/xattr.conf"
--'  1  0  /etc/xattr.conf
-|4,39,1,0,1587838089,"/etc/xattr.conf"
--'  1  0  /etc/xattr.conf
-|4,39,1,0,1587838089,"/etc/xattr.conf"
--'  1  0  /etc/xattr.conf
-|4,39,1,0,1587838089,"/etc/xattr.conf"
--'  1  0  /etc/xattr.conf
-|4,39,1,0,1587838089,"/etc/xattr.conf"
--'  1  0  /etc/xattr.conf
-|4,39,1,0,1587838089,"/etc/xattr.conf"
--'  1  0  /etc/xattr.conf
-|4,39,1,0,1587838089,"/etc/xattr.conf"
--'  1  0  /etc/xattr.conf
-|4,39,1,0,1587838089,"/etc/xattr.conf"
--'  1  0  /etc/xattr.conf
-|4,39,1,0,1587838089,"/etc/xattr.conf"
--'  1  0  /etc/xattr.conf
-|4,39,1,0,1587838089,"/etc/xattr.conf"
--'  1  0  /etc/xattr.conf
-|4,39,1,0,1587838089,"/etc/xattr.conf"
--'  1  0  /etc/xattr.conf
-|4,39,1,0,1587838089,"/etc/xattr.conf"
--'  1  0  /etc/xattr.conf
-|4,39,1,0,1587838089,"/etc/xattr.conf"
--'  1  0  /etc/xattr.conf
-|4,39,1,0,1587838089,"/etc/xattr.conf"
--'  1  0  /etc/xattr.conf
-|4,39,1,0,1587838089,"/etc/xattr.conf"
--'  1  0  /etc/xattr.conf
-|4,39,1,0,1587838089,"/etc/xattr.conf"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  170  8  ~/.config/ranger/scope.sh
-|4,39,170,8,1587816619,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  1  0  ~/.config/ranger/scope.sh
-|4,39,1,0,1587816303,"~/.config/ranger/scope.sh"
--'  283  0  ~/.config/ranger/commands_full.py
-|4,39,283,0,1587805759,"~/.config/ranger/commands_full.py"
--'  283  0  ~/.config/ranger/commands_full.py
-|4,39,283,0,1587805759,"~/.config/ranger/commands_full.py"
--'  283  0  ~/.config/ranger/commands_full.py
-|4,39,283,0,1587805759,"~/.config/ranger/commands_full.py"
--'  283  0  ~/.config/ranger/commands_full.py
-|4,39,283,0,1587805759,"~/.config/ranger/commands_full.py"
--'  283  0  ~/.config/ranger/commands_full.py
-|4,39,283,0,1587805759,"~/.config/ranger/commands_full.py"
--'  283  0  ~/.config/ranger/commands_full.py
-|4,39,283,0,1587805759,"~/.config/ranger/commands_full.py"
+-'  175  9  ~/.config/i3/config
+|4,39,175,9,1587895311,"~/.config/i3/config"
+-'  180  21  ~/.config/i3/config
+|4,39,180,21,1587895196,"~/.config/i3/config"
+-'  114  4  ~/.config/compton.conf
+|4,39,114,4,1587894821,"~/.config/compton.conf"
+-'  114  4  ~/.config/compton.conf
+|4,39,114,4,1587894821,"~/.config/compton.conf"
+-'  124  17  ~/.config/compton.conf
+|4,39,124,17,1587894802,"~/.config/compton.conf"
+-'  124  17  ~/.config/compton.conf
+|4,39,124,17,1587894802,"~/.config/compton.conf"
+-'  124  17  ~/.config/compton.conf
+|4,39,124,17,1587894624,"~/.config/compton.conf"
+-'  124  17  ~/.config/compton.conf
+|4,39,124,17,1587894624,"~/.config/compton.conf"
+-'  114  2  ~/.config/compton.conf
+|4,39,114,2,1587894531,"~/.config/compton.conf"
+-'  114  2  ~/.config/compton.conf
+|4,39,114,2,1587894531,"~/.config/compton.conf"
+-'  114  2  ~/.config/compton.conf
+|4,39,114,2,1587894469,"~/.config/compton.conf"
+-'  114  2  ~/.config/compton.conf
+|4,39,114,2,1587894469,"~/.config/compton.conf"
+-'  132  4  ~/.config/compton.conf
+|4,39,132,4,1587894446,"~/.config/compton.conf"
+-'  130  4  ~/.config/compton.conf
+|4,39,130,4,1587894446,"~/.config/compton.conf"
+-'  132  4  ~/.config/compton.conf
+|4,39,132,4,1587894446,"~/.config/compton.conf"
+-'  130  4  ~/.config/compton.conf
+|4,39,130,4,1587894446,"~/.config/compton.conf"
+-'  132  4  ~/.config/compton.conf
+|4,39,132,4,1587894446,"~/.config/compton.conf"
+-'  130  4  ~/.config/compton.conf
+|4,39,130,4,1587894446,"~/.config/compton.conf"
+-'  132  4  ~/.config/compton.conf
+|4,39,132,4,1587894446,"~/.config/compton.conf"
+-'  130  4  ~/.config/compton.conf
+|4,39,130,4,1587894446,"~/.config/compton.conf"
+-'  130  4  ~/.config/compton.conf
+|4,39,130,4,1587894356,"~/.config/compton.conf"
+-'  130  4  ~/.config/compton.conf
+|4,39,130,4,1587894356,"~/.config/compton.conf"
+-'  114  19  ~/.config/compton.conf
+|4,39,114,19,1587894347,"~/.config/compton.conf"
+-'  114  19  ~/.config/compton.conf
+|4,39,114,19,1587894347,"~/.config/compton.conf"
+-'  114  28  ~/.config/compton.conf
+|4,39,114,28,1587894207,"~/.config/compton.conf"
+-'  114  28  ~/.config/compton.conf
+|4,39,114,28,1587894207,"~/.config/compton.conf"
+-'  116  0  ~/.config/compton.conf
+|4,39,116,0,1587894091,"~/.config/compton.conf"
+-'  116  0  ~/.config/compton.conf
+|4,39,116,0,1587894091,"~/.config/compton.conf"
+-'  116  0  ~/.config/compton.conf
+|4,39,116,0,1587894091,"~/.config/compton.conf"
+-'  116  0  ~/.config/compton.conf
+|4,39,116,0,1587894091,"~/.config/compton.conf"
+-'  116  0  ~/.config/compton.conf
+|4,39,116,0,1587894091,"~/.config/compton.conf"
+-'  116  0  ~/.config/compton.conf
+|4,39,116,0,1587894091,"~/.config/compton.conf"
+-'  116  0  ~/.config/compton.conf
+|4,39,116,0,1587894091,"~/.config/compton.conf"
+-'  116  0  ~/.config/compton.conf
+|4,39,116,0,1587894091,"~/.config/compton.conf"
+-'  116  0  ~/.config/compton.conf
+|4,39,116,0,1587894091,"~/.config/compton.conf"
+-'  116  0  ~/.config/compton.conf
+|4,39,116,0,1587894091,"~/.config/compton.conf"
+-'  109  18  ~/.config/compton.conf
+|4,39,109,18,1587894073,"~/.config/compton.conf"
+-'  109  18  ~/.config/compton.conf
+|4,39,109,18,1587894073,"~/.config/compton.conf"
+-'  109  18  ~/.config/compton.conf
+|4,39,109,18,1587894073,"~/.config/compton.conf"
+-'  109  18  ~/.config/compton.conf
+|4,39,109,18,1587894073,"~/.config/compton.conf"
+-'  109  18  ~/.config/compton.conf
+|4,39,109,18,1587894073,"~/.config/compton.conf"
+-'  109  18  ~/.config/compton.conf
+|4,39,109,18,1587894073,"~/.config/compton.conf"
+-'  109  18  ~/.config/compton.conf
+|4,39,109,18,1587894073,"~/.config/compton.conf"
+-'  109  18  ~/.config/compton.conf
+|4,39,109,18,1587894073,"~/.config/compton.conf"
+-'  109  18  ~/.config/compton.conf
+|4,39,109,18,1587894073,"~/.config/compton.conf"
+-'  109  18  ~/.config/compton.conf
+|4,39,109,18,1587894073,"~/.config/compton.conf"
+-'  109  18  ~/.config/compton.conf
+|4,39,109,18,1587893867,"~/.config/compton.conf"
+-'  109  18  ~/.config/compton.conf
+|4,39,109,18,1587893867,"~/.config/compton.conf"
+-'  109  20  ~/.config/compton.conf
+|4,39,109,20,1587893702,"~/.config/compton.conf"
+-'  109  20  ~/.config/compton.conf
+|4,39,109,20,1587893702,"~/.config/compton.conf"
+-'  125  0  ~/.config/compton.conf
+|4,39,125,0,1587893589,"~/.config/compton.conf"
+-'  121  0  ~/.config/compton.conf
+|4,39,121,0,1587893589,"~/.config/compton.conf"
+-'  123  0  ~/.config/compton.conf
+|4,39,123,0,1587893589,"~/.config/compton.conf"
+-'  125  0  ~/.config/compton.conf
+|4,39,125,0,1587893589,"~/.config/compton.conf"
+-'  121  0  ~/.config/compton.conf
+|4,39,121,0,1587893589,"~/.config/compton.conf"
+-'  123  0  ~/.config/compton.conf
+|4,39,123,0,1587893589,"~/.config/compton.conf"
+-'  121  0  ~/.config/compton.conf
+|4,39,121,0,1587893589,"~/.config/compton.conf"
+-'  123  0  ~/.config/compton.conf
+|4,39,123,0,1587893589,"~/.config/compton.conf"
+-'  121  0  ~/.config/compton.conf
+|4,39,121,0,1587893589,"~/.config/compton.conf"
+-'  123  0  ~/.config/compton.conf
+|4,39,123,0,1587893589,"~/.config/compton.conf"
+-'  121  0  ~/.config/compton.conf
+|4,39,121,0,1587893589,"~/.config/compton.conf"
+-'  121  0  ~/.config/compton.conf
+|4,39,121,0,1587893589,"~/.config/compton.conf"
+-'  125  0  ~/.config/compton.conf
+|4,39,125,0,1587893589,"~/.config/compton.conf"
+-'  121  0  ~/.config/compton.conf
+|4,39,121,0,1587893589,"~/.config/compton.conf"
+-'  123  0  ~/.config/compton.conf
+|4,39,123,0,1587893589,"~/.config/compton.conf"
+-'  125  0  ~/.config/compton.conf
+|4,39,125,0,1587893589,"~/.config/compton.conf"
+-'  121  0  ~/.config/compton.conf
+|4,39,121,0,1587893589,"~/.config/compton.conf"
+-'  123  0  ~/.config/compton.conf
+|4,39,123,0,1587893589,"~/.config/compton.conf"
+-'  121  0  ~/.config/compton.conf
+|4,39,121,0,1587893589,"~/.config/compton.conf"
+-'  123  0  ~/.config/compton.conf
+|4,39,123,0,1587893589,"~/.config/compton.conf"
+-'  121  0  ~/.config/compton.conf
+|4,39,121,0,1587893589,"~/.config/compton.conf"
+-'  123  0  ~/.config/compton.conf
+|4,39,123,0,1587893589,"~/.config/compton.conf"
+-'  121  0  ~/.config/compton.conf
+|4,39,121,0,1587893589,"~/.config/compton.conf"
+-'  121  0  ~/.config/compton.conf
+|4,39,121,0,1587893589,"~/.config/compton.conf"
+-'  2  10  ~/Downloads/st/.Xdefaults
+|4,39,2,10,1587893376,"~/Downloads/st/.Xdefaults"
+-'  2  10  ~/Downloads/st/.Xdefaults
+|4,39,2,10,1587893376,"~/Downloads/st/.Xdefaults"
+-'  2  10  ~/Downloads/st/.Xdefaults
+|4,39,2,10,1587893376,"~/Downloads/st/.Xdefaults"
+-'  2  10  ~/Downloads/st/.Xdefaults
+|4,39,2,10,1587893376,"~/Downloads/st/.Xdefaults"
+-'  2  10  ~/Downloads/st/.Xdefaults
+|4,39,2,10,1587893376,"~/Downloads/st/.Xdefaults"
+-'  2  10  ~/Downloads/st/.Xdefaults
+|4,39,2,10,1587893376,"~/Downloads/st/.Xdefaults"
+-'  2  10  ~/Downloads/st/.Xdefaults
+|4,39,2,10,1587893376,"~/Downloads/st/.Xdefaults"
+-'  2  10  ~/Downloads/st/.Xdefaults
+|4,39,2,10,1587893376,"~/Downloads/st/.Xdefaults"
+-'  2  10  ~/Downloads/st/.Xdefaults
+|4,39,2,10,1587893376,"~/Downloads/st/.Xdefaults"
+-'  2  10  ~/Downloads/st/.Xdefaults
+|4,39,2,10,1587893376,"~/Downloads/st/.Xdefaults"
+-'  2  10  ~/Downloads/st/.Xdefaults
+|4,39,2,10,1587893376,"~/Downloads/st/.Xdefaults"
+-'  2  10  ~/Downloads/st/.Xdefaults
+|4,39,2,10,1587893376,"~/Downloads/st/.Xdefaults"
+-'  2  10  ~/Downloads/st/.Xdefaults
+|4,39,2,10,1587893376,"~/Downloads/st/.Xdefaults"
+-'  2  10  ~/Downloads/st/.Xdefaults
+|4,39,2,10,1587893376,"~/Downloads/st/.Xdefaults"
+-'  2  10  ~/Downloads/st/.Xdefaults
+|4,39,2,10,1587893376,"~/Downloads/st/.Xdefaults"
+-'  2  10  ~/Downloads/st/.Xdefaults
+|4,39,2,10,1587893376,"~/Downloads/st/.Xdefaults"
+-'  2  10  ~/Downloads/st/.Xdefaults
+|4,39,2,10,1587893376,"~/Downloads/st/.Xdefaults"
+-'  2  10  ~/Downloads/st/.Xdefaults
+|4,39,2,10,1587893376,"~/Downloads/st/.Xdefaults"
+-'  2  10  ~/Downloads/st/.Xdefaults
+|4,39,2,10,1587893376,"~/Downloads/st/.Xdefaults"
+-'  2  10  ~/Downloads/st/.Xdefaults
+|4,39,2,10,1587893376,"~/Downloads/st/.Xdefaults"
+-'  2  10  ~/Downloads/st/.Xdefaults
+|4,39,2,10,1587893376,"~/Downloads/st/.Xdefaults"
+-'  2  10  ~/Downloads/st/.Xdefaults
+|4,39,2,10,1587893376,"~/Downloads/st/.Xdefaults"
+-'  2  10  ~/Downloads/st/.Xdefaults
+|4,39,2,10,1587893376,"~/Downloads/st/.Xdefaults"
+-'  2  10  ~/Downloads/st/.Xdefaults
+|4,39,2,10,1587893376,"~/Downloads/st/.Xdefaults"
+-'  2  10  ~/Downloads/st/.Xdefaults
+|4,39,2,10,1587893376,"~/Downloads/st/.Xdefaults"
+-'  2  10  ~/Downloads/st/.Xdefaults
+|4,39,2,10,1587893376,"~/Downloads/st/.Xdefaults"
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/i3/config
+	*	1587895306	0
+	"	175	9
+	^	175	27
+	.	175	27
+	+	189	37
+	+	47	12
+	+	178	260
+	+	178	99
+	+	72	19
+	+	71	19
+	+	70	19
+	+	69	19
+	+	57	13
+	+	58	13
+	+	59	13
+	+	60	13
+	+	82	0
+	+	81	14
+	+	188	0
+	+	181	0
+	+	180	21
+	+	175	27
+
+> ~/.config/compton.conf
+	*	1587894814	0
+	"	114	4
+	^	124	18
+	.	114	2
+	+	125	0
+	+	109	18
+	+	116	0
+	+	115	2
+	+	114	2
+	+	124	18
+	+	114	2
+
+> ~/Downloads/st/.Xdefaults
+	*	1587893373	0
+	"	2	10
+	^	2	11
+	.	2	11
+	+	2	11
+
+> ~/.config/Compton/compton-tryone-git/compton/config
+	*	1587892370	0
+	"	1	0
+
+> ~/.config/Compton/compton-tryone-git/PKGBUILD
+	*	1587892248	0
+	"	9	5
 
 > ~/dotfiles/MERGE_MSG
 	*	1587885247	0
@@ -676,26 +682,6 @@ $Number
 	+	142	19
 	+	167	20
 	+	142	22
-
-> ~/.config/i3/config
-	*	1587748660	0
-	"	81	15
-	^	81	16
-	.	81	14
-	+	190	37
-	+	47	12
-	+	178	260
-	+	178	99
-	+	72	19
-	+	71	19
-	+	70	19
-	+	69	19
-	+	57	13
-	+	58	13
-	+	59	13
-	+	60	13
-	+	82	0
-	+	81	14
 
 > ~/.config/ranger/commands.py
 	*	1587746216	0

@@ -1,145 +1,3 @@
-xprop
-sudo nano ~/.config/picom/picom.conf 
-sudo nano ~/.config/picom/picom.conf 
-sudo nano /etc/xdg/picom.conf
-sudo nano ~/.config/picom/picom.conf 
-sudo nano ~/.config/picom/picom.conf 
-sudo nano ~/.config/i3/config 
-picom --config ~/.config/picom/picom.conf 
-sudo nano ~/.config/picom/picom.conf 
-sudo nano ~/.config/i3/config 
-compton -h
-sudo nano ~/.config/picom/picom.conf 
-sudo nano ~/.config/i3/config 
-sudo nano ~/.config/picom/picom.conf 
-sudo nano ~/.config/picom/picom.conf 
-sudo nano ~/.config/picom/picom.conf 
-picom -h
-picom -b
-picom -v
-sudo nano ~/.config/picom/picom.conf 
-sudo nano /etc/xdg/picom.conf.example
-sudo nano ~/.config/picom/picom.conf 
-sudo nano ~/.config/picom/picom.conf 
-sudo nano ~/.config/picom/picom.conf 
-sudo nano ~/.config/picom/picom.conf 
-picom -h
-sudo nano ~/.config/picom/picom.conf 
-picom -h
-sudo nano ~/.config/picom/picom.conf 
-sudo nano ~/.config/picom/picom.conf 
-neofetch
-htop
-feh -h
-sudo nano /home/bivas/Programs/polybar/src/polybar/config
-cd Programs
-git clone https://aur.archlinux.org/st.git
-ls -al
-cd st
-ls -al
-nano PKGBUILD 
-makepkg -si
-ls -al
-cd src
-ls -la
-cd st-0.8.2
-ls -la
-cd ~
-st -b
-st -h
-st -b
-st -v
-st
-Programs
-cd Programs
-ls -al
-cd st
-ls -al
-cd src
-ls -al
-cd st-0.8.2
-ls -l
-sudo nano config.h
-cd ~
-sudo nano ~/.config/i3/config 
-sudo an
-sudo nano ~/Programs/st/src/st-0.8.2/config.h
-sudo nano ~/Programs/st/src/st-0.8.2/config.h
-sudo nano ~/Programs/st/src/st-0.8.2/config.h
-cd Programs
-git clone https://github.com/LukeSmithxyz/st
-cd Downloads
-git clone https://github.com/LukeSmithxyz/st
-cd st
-make
-sudo make install
-cd .config
-ls -al
-cd ~
-cd Downloads
-ls -al
-cd st
-ls -al
-cd .Xdefaults 
-nano .Xdefaults 
-nano .Xdefaults 
-cd Downloads
-ls a-l
-cd -al
-ls -al
-cd st
-ls -al
-nano .Xdefaults 
-cd Programs
-cd ~
-cd Programs/
-ls -al
-cd st
-ls -al
-cd src
-ls -al
-cd st-0.8.2
-ls -al
-nano config.h
-cd ~
-cd Downloads
-ls -al
-cd st
-ls -al
-nano config.h
-cd Downlaods
-cd Downloads
-ls -al
-cd st
-ls -al
-nano config.h
-cd Downloads
-cd st
-sudo nano .Xdefaults 
-sudo nano ~/Downloads/st/config.h
-sudo nano ~/Downloads/st/config.h
-sudo nano ~/Downloads/st/.Xdefaults 
-sudo nano ~/Downloads/st/config.mk 
-neofetch
-neofetch
-sudo nano ~/Downloads/st/.Xdefaults 
-sudo nano ~/Downloads/st/config.h
-sudo nano ~/Downloads/st/config.h
-sudo nano ~/Downloads/st/.Xdefaults 
-sudo nano ~/Downloads/st/config.mk 
-xrdb ~/Downloads/st/.Xdefaults 
-sudo nano ~/Downloads/st/.Xdefaults 
-xrdb ~/Downloads/st/.Xdefaults 
-sudo nano ~/Downloads/st/.Xdefaults 
-xrdb ~/Downloads/st/.Xdefaults 
-sudo nano ~/Downloads/st/.Xdefaults 
-xrdb ~/Downloads/st/.Xdefaults 
-sudo nano ~/Downloads/st/.Xdefaults 
-xrdb ~/Downloads/st/.Xdefaults 
-sudo nano ~/Downloads/st/.Xdefaults 
-xrdb ~/Downloads/st/.Xdefaults 
-sudo nano ~/.config/i3/config 
-neofetch
 sudo nano ~/Downloads/st/.Xdefaults 
 xrdb ~/Downloads/st/.Xdefaults 
 sudo nano ~/Downloads/st/.Xdefaults 
@@ -498,3 +356,145 @@ config status
 config push
 vim ~/.bashrc
 clear
+config status
+config status -u
+clear
+config remote add origin https://github.com/Anindra123/dotfiles.git
+config remote
+config push -u origin master
+config add $HOME/.config
+config status
+config commit -m "My .config files"
+config push
+git status
+config status
+clear
+git push
+config push
+config pull origin master
+config push
+clear
+config add $HOME/.
+config status
+ls -all
+cat README.md 
+clear
+ls -all
+config add .bash_history .bash_logout .bash_profile .fehbg .gitconfig .xinitrc .viminfo 
+config status
+config commit -m "Some more of my dotfiles"
+config push
+clear
+ls -al
+cat .dmrc 
+cd .w3m/
+ls -al
+cd 
+cd .local
+ls -al
+cd share
+ls -al
+cd 
+clear
+ls -al
+config add .local .cache 
+config status
+config rm --cache .cache
+man git
+config rm -r -cached .cache
+config rm -r --cached .cache
+config status | more
+clear
+config status
+ls -al
+config commit -m "Added .local"
+config push
+clear
+sudo pacman -Sc
+ls -al
+cd .cache/
+ls -al
+ls -al | more
+ cd 
+config rm -r --cached .cache
+config commit -m "Removed .cache"
+config push origin master
+clear
+sudo pacman -Rns compton
+sudo pacman -Rns compton
+sudo pacman -Rns picom
+clear
+ranger
+cd .config/
+mkdir compton
+ls -al
+cd compton/
+ls -al
+git clone https://github.com/tryone144/compton.git
+ls -al
+cd compton/
+make
+ls -al
+make NO_LIBCONFIG
+clear
+cd 
+ls -al
+cd Downloads/
+ls -al
+cd st
+ls -al
+vim .Xdefaults 
+xrdb .Xdefaults 
+ranger
+yay -Syu
+clear
+cd .config
+ls -al
+mkdir Compton
+ls -al
+cd Compton/
+git clone https://aur.archlinux.org/compton-tryone-git.git
+ls -al
+cd compton-tryone-git/
+ls -al
+vim PKGBUILD 
+vim PKGBUILD 
+makepkg -si
+ls -al
+cd compton
+ls -al
+vim config 
+cd 
+clear
+compton
+cd Compton/
+cd .config/
+ls -al
+cd Compton/
+ls -al
+cd compton-tryone-git/
+ls -al
+cd 
+clear
+compton --version
+ranger
+ranger
+compton --version
+ranger
+xrdb ~/Downloads/st/.Xdefaults 
+ranger 
+ranger 
+ranger 
+xrdb ~/Downloads/st/.Xdefaults 
+ranger 
+ranger 
+ranger 
+ranger 
+xprop
+ranger 
+ranger 
+neofetch 
+clear
+ranger 
+ranger 
+ranger 
