@@ -1,7 +1,0 @@
-# KDE Cookie File v2
-#
-# Host               Domain               Path         Exp.date   Prot Name                 Sec  Value
-[.github.com]
-github.com           ".github.com"        "/"          1618597232    0 _octo                5    GH1.1.221621935.1587061232
-github.com           ".github.com"        "/"          1618597232    0 logged_in            7    no
-github.com           ".github.com"        "/"          1650133239    0 _ga                  4    GA1.2.96784002.1587061239
