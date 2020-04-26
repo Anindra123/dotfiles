@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=inode-directory
+Name=flash
+Type=Link
+URL[$e]=file:$HOME/Desktop/flash
+X-KDE-LastOpenedWith=org.kde.dolphin

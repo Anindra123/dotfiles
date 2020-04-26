@@ -1,0 +1,13 @@
+[CLIENT] 0x2a00003
+  [CLIENT_ID] 2d145c672-e26c-4794-bb8c-78be730c9386
+  [CLIENT_LEADER] 0x2a00001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] firefox
+  [WM_NAME] PulseAudio - ArchWiki - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (0,40,1366,728)
+  [GEOMETRY-MAXIMIZED] (0,40,1229,666)
+  [SCREEN] 0
+  [DESK] 2
+  [FLAGS] 0x10300
