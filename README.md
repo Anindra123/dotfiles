@@ -2,6 +2,6 @@
 My arch Linux rice
 
 
-##Preview
+## Preview
 
 ![Alt text](Pictures/screenshots/1.png)
