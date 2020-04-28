@@ -5,6 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+
 alias ls='ls --color=auto'
 GREEN="\[$(tput setaf 2)\]"
 RED="\[$(tput setaf 9)\]"
@@ -17,3 +18,4 @@ PS1="${GREEN}b${RED}i${YELLOW}v${BLUE}a${PINK}s${WHITE} \W >"
 
 alias g='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
 alias r='ranger'
+alias i3='vim ~/.config/i3/config'
