@@ -1,1 +1,4 @@
-exec startxfce4
+~/.fehbg &
+dwmblocks &
+dunst &
+exec dwm 

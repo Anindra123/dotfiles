@@ -1,2 +1,7 @@
 [Added Associations]
 application/pdf=firefox.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=org.pwmt.zathura.desktop;
+application/x-desktop=vim.desktop;
+
+[Default Applications]
+x-scheme-handler/msteams=teams.desktop

@@ -37,6 +37,7 @@
       <property name="plugin-ids" type="array">
         <value type="int" value="15"/>
         <value type="int" value="16"/>
+        <value type="int" value="8"/>
         <value type="int" value="17"/>
         <value type="int" value="18"/>
         <value type="int" value="19"/>
@@ -63,13 +64,12 @@
       <property name="show-frame" type="bool" value="false"/>
       <property name="square-icons" type="bool" value="true"/>
       <property name="names-ordered" type="array">
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="teams"/>
         <value type="string" value="the kde crash handler"/>
         <value type="string" value="kgpg"/>
       </property>
-    </property>
-    <property name="plugin-8" type="string" value="pulseaudio">
-      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="show-notifications" type="bool" value="true"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
@@ -111,6 +111,11 @@
     </property>
     <property name="plugin-7" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+    </property>
+    <property name="plugin-8" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="15890933971.desktop"/>
+      </property>
     </property>
   </property>
 </channel>
