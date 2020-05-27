@@ -22,7 +22,6 @@ PS1="${GREEN}b${RED}i${YELLOW}v${BLUE}a${PINK}s${WHITE} \W >"
 
 alias g='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
 alias r='ranger'
-alias i3='vim ~/.config/i3/config'
 
 
 neofetch
