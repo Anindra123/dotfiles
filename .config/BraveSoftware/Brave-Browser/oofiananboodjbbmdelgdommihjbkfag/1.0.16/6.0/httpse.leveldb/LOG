@@ -1,7 +1,0 @@
-2020/05/27-16:27:42.771 bb11 Recovering log #3
-2020/05/27-16:27:43.450 bb11 Level-0 table #5: started
-2020/05/27-16:27:43.620 bb11 Level-0 table #5: 2853472 bytes OK
-2020/05/27-16:27:43.625 bb11 Recovering log #123
-2020/05/27-16:27:43.737 bb11 Delete type=0 #3
-2020/05/27-16:27:43.737 bb11 Delete type=3 #2
-2020/05/27-16:27:43.737 bb11 Delete type=0 #123
