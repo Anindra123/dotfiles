@@ -1,0 +1,50 @@
+# interpreter for shell commands (needs to be POSIX compatible)
+set shell sh
+set preview true
+set hidden true
+set color256 true
+set icons true
+
+
+
+map <enter> shell
+
+map x $$f
+map X !$f
+
+cmd open ${{
+    case $(file --mime-type $f -b) in
+        text/*) $EDITOR $fx;;
+	pdf/*)  $READER $fx;;
+	image/*) $IMAGE $fx;;
+        *) for f in $fx; do setsid $OPENER $f > /dev/null 2> /dev/null & done;;
+    esac
+}}
+cmd mkdir ${{
+	set -f
+	printf "Enter directory name :"
+	read ans
+	mkdir -v $ans
+}}
+cmd setbg ${{
+	set -f
+    case $(file --mime-type $f -b) in
+	image/*) cp $f ~/Pictures/wallpapers/wallpaper.jpg && ~/.fehbg && notify-send "Wallpaper Changed";;
+	*) printf "IT IS NOT AN IMAGE";;
+    esac
+}}
+cmd delete ${{
+     set -f
+     printf "$fx\n"
+     printf "delete?[y/n]"
+     read ans
+     [ $ans = "y" ] && rm -rf $fx
+}}
+
+map <delete> delete
+
+map bg setbg
+map M mkdir
+map gd $$EDITOR ~/Programs/dwm-6.2/config.h
+map gl $$EDITOR ~/.config/lf/lfrc
+map gb $$EDITOR ~/.bashrc

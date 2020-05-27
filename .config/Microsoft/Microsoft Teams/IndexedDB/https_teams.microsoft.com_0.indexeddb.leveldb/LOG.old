@@ -1,0 +1,6 @@
+2020/05/20-20:45:27.899 5116 Reusing MANIFEST /home/bivas/.config/Microsoft/Microsoft Teams/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/20-20:45:27.900 5116 Recovering log #15
+2020/05/20-20:45:28.271 5116 Reusing old log /home/bivas/.config/Microsoft/Microsoft Teams/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000015.log 
+2020/05/20-20:45:57.045 5401 Level-0 table #20: started
+2020/05/20-20:45:57.174 5401 Level-0 table #20: 1989886 bytes OK
+2020/05/20-20:45:57.225 5401 Delete type=0 #15

@@ -1,0 +1,1 @@
+May 26 20:20:30 host=smtp.gmail.com tls=on auth=on user=bivasdas911@gmail.com from=bivasdas911@gmail.com recipients=bivasdas911@gmail.com mailsize=302 smtpstatus=250 smtpmsg='250 2.0.0 OK  1590502790 x191sm11900120pfd.37 - gsmtp' exitcode=EX_OK

@@ -1,0 +1,16 @@
+defaults
+auth	on
+tls	on
+tls_trust_file	/etc/ssl/certs/ca-certificates.crt
+logfile	~/.config/msmtp/msmtp.log
+
+
+
+account bivas
+host smtp.gmail.com
+port 587
+from bivasdas911@gmail.com
+user bivasdas911@gmail.com
+passwordeval "pass mutt-wizard-bivas"
+
+

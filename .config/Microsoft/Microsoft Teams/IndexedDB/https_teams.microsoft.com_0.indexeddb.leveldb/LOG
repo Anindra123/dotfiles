@@ -1,0 +1,10 @@
+2020/05/25-17:48:29.020 51860 Reusing MANIFEST /home/bivas/.config/Microsoft/Microsoft Teams/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/25-17:48:29.021 51860 Recovering log #19
+2020/05/25-17:48:29.075 51860 Reusing old log /home/bivas/.config/Microsoft/Microsoft Teams/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000019.log 
+2020/05/25-17:48:31.888 52571 Compacting 1@1 + 1@2 files
+2020/05/25-17:48:32.181 52571 Generated table #22@1: 8143 keys, 2170015 bytes
+2020/05/25-17:48:32.323 52571 Generated table #23@1: 2615 keys, 952600 bytes
+2020/05/25-17:48:32.323 52571 Compacted 1@1 + 1@2 files => 3122615 bytes
+2020/05/25-17:48:32.373 52571 compacted to: files[ 0 0 2 0 0 0 0 ]
+2020/05/25-17:48:32.373 52571 Delete type=2 #17
+2020/05/25-17:48:32.373 52571 Delete type=2 #20
